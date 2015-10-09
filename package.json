@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "description": "Simple node.js CRUD Rest Api",
   "private": false,
+  "repository": "michnaadam33/note-crud-api",
   "scripts": {
     "start": "node ./index.js"
   },

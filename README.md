@@ -2,32 +2,32 @@
 ## Before you start
 ### Clone project
 
-    $git clone https://github.com/michnaadam33/note-crud-api.git
+    git clone https://github.com/michnaadam33/note-crud-api.git
 ### Install dependencies
 
-    $cd <project_path>
-    $npm install
+    cd <project_path>
+    npm install
 ### Migration
 To execute the migrations
     
-    $cd <project_path>
+    cd <project_path>
     ./node_modules/sequelize-cli/bin/sequelize db:migrate
 
 ## Run REST Api
 To start api you need execute
 
-`$node index.js` or `$npm start`
+`node index.js` or `npm start`
 
 ## Start test
 To execute the tests, start your api with
 
-`$cd <project_path>`
+`cd <project_path>`
 
-`$node index.js` 
+`node index.js` 
 
 and then in another shell run
 
-`$mocha` or `$./node_modules/mocha/bin/mocha`
+`mocha` or `./node_modules/mocha/bin/mocha`
    
 ## Configuration
 ### Config database
